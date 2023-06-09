@@ -29,6 +29,8 @@ class LinkedList:
             self.tail.next = new_node
             self.tail = new_node
 
+        self.length +=1    
+
 
 my_linked_list = LinkedList(11)
 my_linked_list.append(3)
